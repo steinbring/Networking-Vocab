@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Network+ Vocabulary</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/jquery.mobile-1.4.0.min.css">
+	<link rel="stylesheet" href="css/main.css">
+	<script src="js/jquery.js"></script>
+	<script src="js/jquery.mobile-1.4.0.min.js"></script>
+	<script>
+		$( document ).on( "pagecreate", function() {
+			$( "body > [data-role='panel']" ).panel();
+			$( "body > [data-role='panel'] [data-role='listview']" ).listview();
+		});
+		$( document ).one( "pageshow", function() {
+			$( "body > [data-role='header']" ).toolbar();
+		});
+	</script>
+	<script type="text/javascript" src="js/dictionary.js"></script>
+</head>
+<body>
+
+	<div data-role="header" data-position="fixed" data-theme="a">
+		<h1>Network+ Vocabulary</h1>
+		<a href="#outside" data-icon="grid" data-iconpos="notext">Menu</a>
+	</div><!-- /header -->
+
+	<div data-role="page" id="about">
+
+		<div role="main" class="ui-content">
+
+			<h2>About</h2>
+
+		</div><!-- /content -->
+
+	</div><!-- /page -->
+
+	<!-- INTRODUCTION -->
+	<div data-role="page" id="introduction">
+
+		<div role="main" class="ui-content">
+
+			<h2>Introduction</h2>
+
+		</div><!-- /content -->
+
+	</div><!-- /page -->
+
+	<!-- DEFINITION Pop-up Box -->
+
+	<div data-role="page" data-dialog="true" id="Definition">
+
+        <div data-role="header" data-theme="b" id="DefinitionHeader">
+        	<h1></h1>
+        </div>
+
+        <div role="main" class="ui-content" id="DefinitionBody">
+
+        </div>
+
+    </div><!-- /page -->
+
+	<div data-role="page" id="acknowledgments">
+
+		<div role="main" class="ui-content">
+
+		<h2>Acknowledgments</h2>
+
+		<p>This application was written by Joe Steinbring, using PhoneGap Build.  The source is available via http://steinbring.net.</p>
+		</div><!-- /content -->
+
+	</div><!-- /page -->
+
+	<div data-role="panel" id="outside" data-theme="a">
+		<!-- The sidebar nav thing -->
+		<ul data-role="listview">
+			<li data-icon="back"><a href="#" data-rel="close">Close</a></li>
+			<li><a href="#about">Home</a>
+			<li><a href="#introduction">Introduction</a>
+			<li><a href="#acknowledgments">Acknowledgments</a>
+		</ul>
+	</div>
+
+	<script type="text/javascript">
+		function getQueryVariable(variable)
+		{
+		       var query = window.location.search.substring(1);
+		       var vars = query.split("&");
+		       for (var i=0;i<vars.length;i++) {
+		               var pair = vars[i].split("=");
+		               if(pair[0] == variable){return pair[1];}
+		       }
+		       return(false);
+		}
+		function populateDefinition(arrDictionary,i){
+			$('#DefinitionHeader h1').empty();
+			$('#DefinitionHeader h1').append(arrDictionary[i].word);
+			$('#DefinitionBody').empty();
+			// Set the Word
+			$('#DefinitionBody').append('<h1>'+arrDictionary[i].word+'</h1>');
+			// Set the definition
+			$('#DefinitionBody').append('<p>'+arrDictionary[i].definition+'</p>');
+			// Set the 'Google This' button
+			$('#DefinitionBody').append('<a href="https://www.google.com/#q='+arrDictionary[i].word+'" target="_system" class="ui-btn ui-shadow ui-corner-all ui-btn-a">Search Google</a>');
+			// Add the OK button back in
+			$('#DefinitionBody').append('<a href="dialog/index.html" data-rel="back" class="ui-btn ui-shadow ui-corner-all ui-btn-a">OK</a>');
+		}
+		// Populate the Introduction Page
+		for (var i = 0; i < arrIntroduction.length; i++) {
+			$('#introduction .ui-content').append('<a href="#Definition?id='+i+'" class="ui-btn ui-shadow ui-corner-all ui-btn-a" onclick="populateDefinition(arrIntroduction,'+i+');">'+arrIntroduction[i].word+'');
+		}
+	</script>
+</body>
+</html>

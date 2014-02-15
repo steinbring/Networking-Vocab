@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns   = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "net.steinbring.NetworkPlusVocab"
+        versionCode = "10" 
+        version     = "0.01" >
+
+    <!-- versionCode is optional and Android only -->
+
+    <name>Network+ Vocabulary</name>
+
+    <description>
+        I wrote this application as an aid for studying for the CompTIA Network+ exam.  It was modeled on Milwaukee Area Technical College's ITNET-101 Network Communications (Network+) course.
+    </description>
+
+    <author href="http://steinbring.net" email="joe@steinbring.net">
+        Joe Steinbring
+    </author>
+
+    <preference name="phonegap-version" value="3.1.0" />
+    
+    <preference name="permissions" value="none"/>
+
+    <icon src="img/Network+.png" />
+
+</widget>
