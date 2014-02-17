@@ -62,3 +62,31 @@ arrIntroduction.push({ word: 'MAN (Metropolitan Area Network)', definition: 'A n
 arrIntroduction.push({ word: 'Management Services', definition: 'The network services that centrally administer and simplify complicated management tasks on the network. Examples of management services include license tracking, security auditing, asset management, address management, software distribution, traffic monitoring, load balancing, and hardware diagnosis.', slug: 'ManagementServices' });
 // Item #30
 arrIntroduction.push({ word: 'MCITP (Microsoft Certified IT Professional)', definition: 'A professional certification established by Microsoft that demonstrates in-depth knowledge about Microsoft products.', slug: 'MCITP' });
+// Item #31
+arrIntroduction.push({ word: 'Motherboard', definition: 'The main circuit board that controls a computer', slug: 'Motherboard' });
+// Item #32
+arrIntroduction.push({ word: 'Network', definition: 'A group of computers and other devices (such as printers) that are connected by and can exchange data via some type of transmission media, such as a cable, a wire, or the atmosphere.', slug: 'Network' });
+// Item #33
+arrIntroduction.push({ word: 'Network+ (Net+)', definition: 'The professional certification established by CompTIA that verifies broad, vendor-independent networking technology skills, such as an understanding of protocols, topologies, networking hardware, and networking troubleshooting.', slug: 'NetworkPlus' });
+// Item #34
+arrIntroduction.push({ word: 'Network Services', definition: 'The functions provided by a network.', slug: 'NetworkServices' });
+// Item #35
+arrIntroduction.push({ word: 'NIC (Network Interface Card)', definition: 'The device that enables a workstation to connect to the network and communicate with other computers.  NICs are manufactured by several different companies and come with a variety of specifications that are tailored to the workstation\'s and the network\'s requirements. NICs are also called network adapters.', slug: 'NIC' });
+// Item #36
+arrIntroduction.push({ word: 'Node', definition: 'A computer or other device connected to a network, which has a unique address and is capable of sending or receiving data.', slug: 'Node' });
+// Item #37
+arrIntroduction.push({ word: 'NOS (Network Operating System)', definition: 'The software that runs on a server and enables the server to manage data, users, groups, security, applications, and other networking functions.  The most popular network operating systems are UNIX, Linux, and Microsoft Windows Server.', slug: 'NOS' });
+// Item #38
+arrIntroduction.push({ word: 'Packet', definition: 'A discrete unit of information sent from one node on a network to another.', slug: 'packet' });
+// Item #39
+arrIntroduction.push({ word: 'Peer-to-Peer Network', definition: 'A network in which every computer can communicate directly with every other computer. By default, no computer on a peer-to-peer network has more authority than another. However, each computer can be configured to share only some of its resources and keep other resources inaccessible to other nodes on the network.', slug: 'P2PNetwork' });
+// Item #40
+arrIntroduction.push({ word: 'PrintServices', definition: 'The network service that allows printers to be shared by several users on a network.', slug: 'PrintServices' });
+// Item #41
+arrIntroduction.push({ word: 'Protocol', definition: 'A standard method or format for communication between network devices. For example, some protocols ensure that data are tranfered in sequence and without error from one node on the network to another.  Other protocols ensure that data belonging to a Web page are formatted to appear correctly in a Web browser window.  Still others encode passwords and keep data transmissions secure.', slug: 'Protocol' });
+// Item #42
+arrIntroduction.push({ word: 'Remote Access Server', definition: 'A server that runs communications services that enable remote users to log on to a network. Also known as an access server.', slug: 'RemoteAccessServer' });
+// Item #43
+arrIntroduction.push({ word: 'Remote User', definition: 'A person working on a computer on a different network or in a different geographical location from the LAN\'s server.', slug: 'RemoteUser' });
+// Item #44
+arrIntroduction.push({ word: 'Resources', definition: 'The devices, data, and data storage space provided by a computer, whether stand-alone or shared.', slug: 'Resources' });
