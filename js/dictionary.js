@@ -81,7 +81,7 @@ arrIntroduction.push({ word: 'Packet', definition: 'A discrete unit of informati
 // Item #39
 arrIntroduction.push({ word: 'Peer-to-Peer Network', definition: 'A network in which every computer can communicate directly with every other computer. By default, no computer on a peer-to-peer network has more authority than another. However, each computer can be configured to share only some of its resources and keep other resources inaccessible to other nodes on the network.', slug: 'P2PNetwork' });
 // Item #40
-arrIntroduction.push({ word: 'PrintServices', definition: 'The network service that allows printers to be shared by several users on a network.', slug: 'PrintServices' });
+arrIntroduction.push({ word: 'Print Services', definition: 'The network service that allows printers to be shared by several users on a network.', slug: 'PrintServices' });
 // Item #41
 arrIntroduction.push({ word: 'Protocol', definition: 'A standard method or format for communication between network devices. For example, some protocols ensure that data are tranfered in sequence and without error from one node on the network to another.  Other protocols ensure that data belonging to a Web page are formatted to appear correctly in a Web browser window.  Still others encode passwords and keep data transmissions secure.', slug: 'Protocol' });
 // Item #42
@@ -90,3 +90,46 @@ arrIntroduction.push({ word: 'Remote Access Server', definition: 'A server that 
 arrIntroduction.push({ word: 'Remote User', definition: 'A person working on a computer on a different network or in a different geographical location from the LAN\'s server.', slug: 'RemoteUser' });
 // Item #44
 arrIntroduction.push({ word: 'Resources', definition: 'The devices, data, and data storage space provided by a computer, whether stand-alone or shared.', slug: 'Resources' });
+// Item #45
+arrIntroduction.push({ word: 'Restoring', definition: 'The process of retrieving files from a backup. It is necessary to restore files if the original files are lost or deleted.', slug: 'Restoring' });
+// Item #46
+arrIntroduction.push({ word: 'Scalable', definition: 'The property of a network that allows you to add nodes or increase its size easily.', slug: 'Scalable' });
+// Item #47
+arrIntroduction.push({ word: 'Security Auditing', definition: 'The process of evaluating security measures currently in place on a network and notifying the network administrator if a security breach occurs.', slug: 'SecurityAuditing' });
+// Item #48
+arrIntroduction.push({ word: 'Segment', definition: 'A part of a network. Usually, a segment is composed of a group of nodes that share the same communications channel for all their traffic.', slug: 'Segment' });
+// Item #49
+arrIntroduction.push({ word: 'Server', definition: 'A computer on the network that manages shared resources.  Servers usually have more processing power, memory, and hard disk than clients.  They run network operating software that can manage not only data, but also users, groups, security, and applications on the network.', slug: 'Server' });
+// Item #50
+arrIntroduction.push({ word: 'Sneakernet', definition: 'A way of exchanging data between computers that are not connected on a network.  The term "sneakernet" was coined before the widespread use of networks, when data was copied from a computer to a removable storage device such as a floppy disk, carried (presumably by someone wearing sneakers) to another computer, then copied from the storage device onto the second computer.', slug: 'Sneakernet' });
+// Item #51
+arrIntroduction.push({ word: 'Soft Skills', definition: 'The skills such as customer relations, oral and written communications, dependability, teamwork, and leadership abilities, which are not easily measured, but are nevertheless important in a networking career.', slug: 'SoftSkills' });
+// Item #52
+arrIntroduction.push({ word: 'Software Distribution', definition: 'The process of automatically transferring a data file or installing a software application from the server to a client on the network.', slug: 'SoftwareDistribution' });
+// Item #53
+arrIntroduction.push({ word: 'Spam', definition: 'Unsolicited, unwanted e-mail', slug: 'Spam' });
+// Item #54
+arrIntroduction.push({ word: 'Stand-alone Computer', definition: 'A computer that uses applications and data only from its local disks and that is not connected to a network.', slug: 'StandAloneComputer' });
+// Item #55
+arrIntroduction.push({ word: 'Topology', definition: 'The physical layout of computers on a network.', slug: 'Topology' });
+// Item #56
+arrIntroduction.push({ word: 'Traffic', definition: 'The data transmission and processing activity taking place on a computer network at any given time.', slug: 'Traffic' });
+// Item #57
+arrIntroduction.push({ word: 'Traffic Monitoring', definition: 'The process of determining how much data transfer activity is taking place on a network or network segment and notifying administrators when a segment becomes overloaded.', slug: 'TrafficMonitoring' });
+// Item #58
+arrIntroduction.push({ word: 'Unified Communications', definition: 'The centralized management of multiple types of network-based communications, such as voice, video, fax, and messaging services', slug: 'UnifiedCommunications' });
+// Item #59
+arrIntroduction.push({ word: 'User', definition: 'A person who uses a computer.', slug: 'User' });
+// Item #60
+arrIntroduction.push({ word: 'WAN (Wide Area Network)', definition: 'A network that spans a long distance and connects two or more LANs.', slug: 'WAN' });
+// Item #61
+arrIntroduction.push({ word: 'Web Server', definition: 'A computer that manages Web site services, such as supplying a Web page to multiple users on demand.', slug: 'WebServer' });
+// Item #62
+arrIntroduction.push({ word: 'Workstation', definition: 'A computer that runs a desktop operating system and connects to a network.', slug: 'Workstation' });
+
+
+// Define the networking standards chapter
+var arrNetworkingStandards = [];
+// Item #1
+arrNetworkingStandards.push({ word: 'Coming Soon ...', definition: '', slug: '' });
+
