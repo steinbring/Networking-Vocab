@@ -118,12 +118,12 @@
 			$('#DefinitionBody').append('<a href="dialog/index.html" data-rel="back" class="ui-btn ui-shadow ui-corner-all ui-btn-a">OK</a>');
 		}
 		// Populate the Introduction Page
-		for (var i = 0; i < arrIntroduction.length; i++) {
-			$('#introduction .ui-content').append('<a href="#Definition?id='+i+'" class="ui-btn ui-shadow ui-corner-all ui-btn-a" onclick="populateDefinition(arrIntroduction,'+i+');">'+arrIntroduction[i].word+'');
+		for (var i = 0; i < arrChapterOne.length; i++) {
+			$('#introduction .ui-content').append('<a href="#Definition?id='+i+'" class="ui-btn ui-shadow ui-corner-all ui-btn-a" onclick="populateDefinition(arrChapterOne,'+i+');">'+arrChapterOne[i].word+'');
 		}
 		// Populate the Networking Standards Page
-		for (var i = 0; i < arrNetworkingStandards.length; i++) {
-			$('#NetworkingStandards .ui-content').append('<a href="#Definition?id='+i+'" class="ui-btn ui-shadow ui-corner-all ui-btn-a" onclick="populateDefinition(arrNetworkingStandards,'+i+');">'+arrNetworkingStandards[i].word+'');
+		for (var i = 0; i < arrChapterTwo.length; i++) {
+			$('#NetworkingStandards .ui-content').append('<a href="#Definition?id='+i+'" class="ui-btn ui-shadow ui-corner-all ui-btn-a" onclick="populateDefinition(arrChapterTwo,'+i+');">'+arrChapterTwo[i].word+'');
 		}
 	</script>
 </body>
