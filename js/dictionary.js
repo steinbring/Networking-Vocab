@@ -167,6 +167,48 @@ arrChapterTwo.push({ word: 'EUI-64 (Extended Unique Identifier-64)', definition:
 
 arrChapterTwo.push({ word: 'Extension Identifier', definition: 'A unique set of characters assigned to each NIC by its manufacturer.  In the traditional, 48-bit physical addressing scheme , the extension identifier is 24 bits long. In EUI-64, the extension identifier is 40 bits long.', slug: 'ExtensionIdentifier' });
 
+arrChapterTwo.push({ word: 'FCS (Frame Check Sequence)', definition: 'The field in a frame for ensuring that data carried by the frame arrives intact.  It uses an algorithm, such as CRC, to accomplish this verification.', slug: 'FCS' });
+
+arrChapterTwo.push({ word: 'Flow Control', definition: 'A method of gauging the appropriate rate of data transmission based on how fast the recipient can accept data.', slug: 'FlowControl' });
+
+arrChapterTwo.push({ word: 'Fragmentation', definition: 'A Network layer service that subdivides segments it receives from the Transport layer into smaller packets.', slug: 'Fragmentation' });
+
+arrChapterTwo.push({ word: 'Frame', definition: 'A package for data that includes not only the raw data, or "Payload," but also the sender\'s and recipient\'s addressing and control information. Frames are generated at the Data Link layer of the OSI model and are issued to the network at the Physical layer.', slug: 'Frame' });
+
+arrChapterTwo.push({ word: 'HTTP (Hypertext Transport Protocol)', definition: 'An Application layer protocol that formulates and interprets requests between Web clients and servers.', slug: 'HTTP' });
+
+arrChapterTwo.push({ word: 'IAB (Internet Architecture Board)', definition: 'A technical advisory group of researchers and technical professionals responsible for Internet growth and management strategy, resolution of technical disputes, and standards oversight.', slug: 'IAB' });
+
+arrChapterTwo.push({ word: 'IANA (Internet Assigned Numbers Authority)', definition: 'A nonprofit, United States government-funded group that was established at the University of Southern California and charged with managing IP address allocation and the Domain Name system.  The oversight for many of IANA\'s functions was given to ICANN in 1998; however IANA continues to perform Internet addressing and Domain Name System administration.', slug: 'IANA' });
+
+arrChapterTwo.push({ word: 'ICANN (Internet Corporation for Assigned Names and Numbers)', definition: 'The nonprofit corporation currently designated by the United States government to maintain and assign IP addresses.', slug: 'ICANN' });
+
+arrChapterTwo.push({ word: 'IEEE (Institute of Electrical and Electronics Engineers)', definition: 'An international society composed of engineering professionals. Its goals are to promote development and education in the electrical engineering and computer science fields.', slug: 'IEEE' });
+
+arrChapterTwo.push({ word: 'IETF (Internet Engineering Task Force)', definition: 'An organization that sets standards for how systems communicate over the Internet (for example, how protocols operate and interact).', slug: 'IETF' });
+
+arrChapterTwo.push({ word: 'IP (Internet Protocol)', definition: 'A core protocol in the TCP/IP suite that operates in the Network layer of the OSI model and provides information about how and where data should be delivered. IP is the subprotocol that enables TCP/IP to internetwork.', slug: 'IP' });
+
+arrChapterTwo.push({ word: 'IP Address (Internet Protocol Address)', definition: 'The Network layer address assigned to nodes to uniquely identify them on a TCP/IP network. IPv4 addresses consist of 32 bits divided into four octets, or bytes. IPv6 addresses are composed of eight 16-bit fields, for a total of 128 bits.', slug: 'IPAddress' });
+
+arrChapterTwo.push({ word: 'ISO (International Organization for Standardization)', definition: 'A collection of standards organizations representing 162 countries and headquarters located in Geneva, Switzerland. Its goal is to establish international technical standards to facilitate the global exchange of information and barrier-free trade.', slug: 'ISO' });
+
+arrChapterTwo.push({ word: 'ISOC (Internet Society)', definition: 'A professional organization with members from 90 chapters around the world that helps to establish technical standards for the internet.', slug: 'ISOC' });
+
+arrChapterTwo.push({ word: 'ISP (Internet Service Provider)', definition: 'A business that provides organizations and individuals with Internet access and often, other services, such as e-mail and Web hosting.', slug: 'ISP' });
+
+arrChapterTwo.push({ word: 'ITU (International Telecommunication Union)', definition: 'A United Nations agency that regulates international telecommunications and provides developing countries with technical expertise and equipment to advance their technological bases.', slug: 'ITU' });
+
+arrChapterTwo.push({ word: 'LLC (Logical Link Control) sublayer', definition: 'The upper sublayer in the Data Link layer.  The LLC provides a common interface and supplies reliability and flow control devices.', slug: 'LLC' });
+
+arrChapterTwo.push({ word: 'MAC (Media Access Control) sublayer', definition: 'The lower sublayer of the Data Link layer. The MAC appends the physical address of the destination computer onto the frame.', slug: 'MAC' });
+
+arrChapterTwo.push({ word: '', definition: '', slug: '' });
+
+arrChapterTwo.push({ word: '', definition: '', slug: '' });
+
+arrChapterTwo.push({ word: '', definition: '', slug: '' });
+
 arrChapterTwo.push({ word: '', definition: '', slug: '' });
 
 arrChapterTwo.push({ word: '', definition: '', slug: '' });
