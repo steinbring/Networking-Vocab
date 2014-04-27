@@ -203,33 +203,59 @@ arrChapterTwo.push({ word: 'LLC (Logical Link Control) sublayer', definition: 'T
 
 arrChapterTwo.push({ word: 'MAC (Media Access Control) sublayer', definition: 'The lower sublayer of the Data Link layer. The MAC appends the physical address of the destination computer onto the frame.', slug: 'MAC' });
 
-arrChapterTwo.push({ word: '', definition: '', slug: '' });
+arrChapterTwo.push({ word: 'MTU (Maximum Transmission Unit)', definition: 'The largest data unit a network (for example, ethernet or token ring) will accept for transmission', slug: 'mtu' });
 
-arrChapterTwo.push({ word: '', definition: '', slug: '' });
+arrChapterTwo.push({ word: 'Network Address', definition: 'A unique identifying number for a network node that follows a hierarchical addressing scheme and can be assigned through operating system software. Network addresses are added to data packets and interpreted by protocols at the Network layer of the OSI model.', slug: 'NetworkAddress' });
 
-arrChapterTwo.push({ word: '', definition: '', slug: '' });
+arrChapterTwo.push({ word: 'Network Layer', definition: 'The third layer in the OSI model. Protocols in the Network layer translate network addresses into their physical counterparts and decide how to route data from the sender to the receiver.', slug: 'NetworkLayer' });
 
-arrChapterTwo.push({ word: '', definition: '', slug: '' });
+arrChapterTwo.push({ word: 'OSI (Open Systems Interconnection) model', definition: 'A model for understanding and developing computer-to-computer communication developed in the 1980s by ISO. It divides networking  functions among seven layers: Physical, Data Link, Network, Transport, Session, Presentation, and Application.', slug: 'OSI' });
 
-arrChapterTwo.push({ word: '', definition: '', slug: '' });
+arrChapterTwo.push({ word: 'OUI (Organizationally Unique Identifier)', definition: 'A 24-bit character sequence assigned by IEEE that appears at the beginning of a network interface\'s physical address and identifies the NIC\'s manufacturer.', slug: 'OUI' });
 
-arrChapterTwo.push({ word: '', definition: '', slug: '' });
+arrChapterTwo.push({ word: 'PDU (Protocol Data Unit)', definition: 'A unit of data at any layer of the OSI model.', slug: 'PDU' });
 
-arrChapterTwo.push({ word: '', definition: '', slug: '' });
+arrChapterTwo.push({ word: 'Physical Address', definition: 'A 48-bit or 64-bit network interface identifier that includes two parts: the OUI, assigned by IEEE to the manufacturer, and the extension identifier, a unique number assigned to each NIC by the manufacturer.', slug: 'PhysicalAddress' });
 
-arrChapterTwo.push({ word: '', definition: '', slug: '' });
+arrChapterTwo.push({ word: 'Physical Layer', definition: 'The lowest, or first, layer of the OSI model. Protocols in the physical layer generate and detect signals so as to transmit and receive data over the network medium. These protocols also set the data transmission rate and monitor data error rates, but do not provide error correction.', slug: 'PhysicalLayer' });
 
-arrChapterTwo.push({ word: '', definition: '', slug: '' });
+arrChapterTwo.push({ word: 'Presentation Layer', definition: 'The sixth layer of the OSI model. Protocols in the Presentation layer translate between the application and the network. Here, data are formatted in a schema that the network can understand, with the format varying according to the type of network used. The Presentation layer also manages data encryptuin and decryption, such as the scrambling of system passwords.', slug: 'PresentationLayer' });
 
-arrChapterTwo.push({ word: '', definition: '', slug: '' });
+arrChapterTwo.push({ word: 'Reassmbly', definition: 'The process of reconstructing data units that have been segmented.', slug: 'Reassmbly' });
 
-arrChapterTwo.push({ word: '', definition: '', slug: '' });
+arrChapterTwo.push({ word: 'RIR (Regional Internet Registry)', definition: 'A not-for-profit agency that manages the distribution of IP addresses to private and public entities. ARIN is the RIR for North, Central, and South America and sub-Saharan Africa. APNIC is the RIR for Asia and the Pacific region. RIPE is the RIR for Europe and North Africa.', slug: 'RIR' });
 
-arrChapterTwo.push({ word: '', definition: '', slug: '' });
+arrChapterTwo.push({ word: 'Route', definition: 'To intelligently direct data between networks based on addressing, patterns of usage, and availability of network segments.', slug: 'Route' });
 
-arrChapterTwo.push({ word: '', definition: '', slug: '' });
+arrChapterTwo.push({ word: 'Router', definition: 'A device that connects network segments and directs data based on information contained in the data packet.', slug: 'Router' });
 
-arrChapterTwo.push({ word: '', definition: '', slug: '' });
+arrChapterTwo.push({ word: 'Segment', definition: 'A unit of data that results from subdividing a larger protocol data unit.', slug: 'Segment' });
+
+arrChapterTwo.push({ word: 'Segmentation', definition: 'The process of decreasing the size of data units when moving data from a network that can handle larger data units to a network that can handle only smaller data units.', slug: 'Segmentation' });
+
+arrChapterTwo.push({ word: 'Sequencing', definition: 'The process of assigning a placeholder to each piece of a data block to allow the receiving node\'s Transport layer to reassemble the data in the correct order.', slug: 'Sequencing' });
+
+arrChapterTwo.push({ word: 'Session', definition: 'A connection for data exchange between two parties. The term session may be used in the context of Web, remote access, or terminal and mainframe communications, for example.', slug: 'Session' });
+
+arrChapterTwo.push({ word: 'Session Layer', definition: 'The fifth layer in the OSI model. The Session layer establishes and maintains communications between two nodes on the network. It can be considered the "trafic cop" for communications, such as videoconferencing, that require precisely coordinated data exchange.', slug: 'SessionLayer' });
+
+arrChapterTwo.push({ word: 'Standard', definition: 'A documented agreement containing technical specifications or other precise criteria that are used as guidelines to ensure that materials, products, processes, and services suit their intended purpose.', slug: 'Standard' });
+
+arrChapterTwo.push({ word: 'SYN (synchronization)', definition: 'The packet one node sends to request a connection with another node on the network. The SYN packet is the first of three in the three-step process of establishing a connection.', slug: 'SYN' });
+
+arrChapterTwo.push({ word: 'SYN-ACK (Synchronization-Acknowledgement)', definition: 'The packet a node sends to acknowledge to another node that it has received a SYN request for connection. The SYN-ACK packet is the second of three in the three-step process of establishing a connection.', slug: 'SYN-ACK' });
+
+arrChapterTwo.push({ word: 'Terminal', definition: 'A device with little (if any) of its own processing or disk capacity that depends on a host to supply it with application and data-processing services.', slug: 'Terminal' });
+
+arrChapterTwo.push({ word: 'Three-way handshake', definition: 'A three-step process in which Transport layer protocols establish a connection between nodes. The three steps are: node A issues a SYN packet to node B, node B responds with SYN-ACK, and node A responds with ACK', slug: 'ThreeWayHandshake' });
+
+arrChapterTwo.push({ word: 'TIA (Telecommunications Industry Association)', definition: 'A subgroup of the EIA that focuses on standards for information technology, wireless, satellite, fiber optics, and telephone equipment. Probably the best known standards to come from the TIA/EIA alliance are its guidelines for how network cable should be installed in commerical buildings, known as the "TIA/EIA 568-B Series."', slug: 'TIA' });
+
+arrChapterTwo.push({ word: 'Token', definition: 'A speical control frame that indicates to the rest of the network that a particular node has the right to transmit data.', slug: 'Token' });
+
+arrChapterTwo.push({ word: 'Token Ring', definition: 'A netowrking technology developed by IBM in the 1980s. It relies upon direct links between nodes and a ring topology, using tokens to allow nodes to transmit data.', slug: 'TokenRing' });
+
+arrChapterTwo.push({ word: 'Transport Layer', definition: 'The fourth layer of the OSI model. In the Transport layer, protocols ensure that data are transferred from point A to point B reliably and without errors. Transport layer services include flow control, acknowledgement, error correction, segmentation, reassembly, and sequencing.', slug: 'TransportLayer' });
 
 arrChapterTwo.push({ word: '', definition: '', slug: '' });
 
